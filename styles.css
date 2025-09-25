@@ -1,0 +1,46 @@
+body { 
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+h1 { 
+    vertical-align: middle;
+    color: #556A78;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+
+h2 { 
+    vertical-align: middle;
+    color: #556A78;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+}
+
+.btn-blue {
+    background: transparent;
+    border: 2px solid #556A78;
+    border-radius: 30px;
+    color: #556A78;
+    padding: 12px 50px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin: 50px auto;
+    display: block;
+}
+
+.btn-blue:hover {
+    background: #556A78;
+    color: #fff;
+}
